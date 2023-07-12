@@ -18,14 +18,13 @@ This project is a micro:bit version of the game, where one micro:bit is the host
 
 ## Running the game
 
-1. On makecode.microbit.org, import the project from the URL: 
-2. Press the `Logo` button to start the host micro:bit.
-3. The host micro:bit will display a random number between 0 and 9, if you want to adjust the number, press the `A` button to go lower or the `B` button to go higher.
-4. Confirm the number by pressing the `Logo` button again, this will initialise the player micro:bit.
-5. On the player micro:bit, press the `A` button to go lower or the `B` button to go higher, and press the `Logo` button to confirm your guess.
-6. The host micro:bit will display if the player needs to go higher or lower.
-7. After receiving the feedback, the player micro:bit will provide you a suggestion for your next guess.
-8. Repeat steps 5-7 until the player guesses the correct number, then the host micro:bit will display a tick.
+1. Press the `Logo` button to start the host micro:bit.
+2. The host micro:bit will display a random number between 0 and 9, if you want to adjust the number, press the `A` button to go lower or the `B` button to go higher.
+3. Confirm the number by pressing the `Logo` button again, this will initialise the player micro:bit.
+4. On the player micro:bit, press the `A` button to go lower or the `B` button to go higher, and press the `Logo` button to confirm your guess.
+5. The host micro:bit will display if the player needs to go higher or lower.
+6. After receiving the feedback, the player micro:bit will provide you a suggestion for your next guess.
+7. Repeat steps 5-7 until the player guesses the correct number, then the host micro:bit will display a tick.
 
 #### Metadata (used for search, rendering)
 
