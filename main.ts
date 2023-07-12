@@ -70,6 +70,8 @@ function initialisePlayer () {
     strip.showRainbow(1, 120)
     low = 0
     high = max
+    guess = Math.floor((low + high) / 2)
+    basic.showNumber(guess)
     isPlayer = 1
 }
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
@@ -78,6 +80,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
     }
     if (isHost == 1) {
         radio.sendString("start")
+        basic.showString("?")
     }
     if (isPlayer == 1) {
         radio.sendNumber(guess)
