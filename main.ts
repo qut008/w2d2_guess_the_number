@@ -33,6 +33,16 @@ function initialiseHost () {
     key = randint(0, max)
     basic.showNumber(key)
 }
+input.onButtonPressed(Button.AB, function () {
+    if (isHost == 1) {
+        key = randint(0, max)
+        basic.showNumber(key)
+    }
+    if (isPlayer == 1) {
+        guess = Math.floor((low + high) / 2)
+        basic.showNumber(guess)
+    }
+})
 radio.onReceivedString(function (receivedString) {
     if (receivedString == "start") {
         initialisePlayer()
